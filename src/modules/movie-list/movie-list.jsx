@@ -24,7 +24,7 @@ export default function MovieList() {
                         <img style={{ height: 350, objectFit: 'cover' }} className="card-img-top" src={ele.hinhAnh} alt="movie" />
                         <div className="card-body">
                             <h5 className="card-title">{ele.tenPhim}</h5>
-                            <Button loading={false} type='warning' size='large' onClick={() => navigate(`/movie/${ele.maPhim}`)}>
+                            <Button loading={false} type='danger' size='large' onClick={() => navigate(`/movie/${ele.maPhim}`)}>
                                 XEM CHI TIẾT
                             </Button>
 
