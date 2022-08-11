@@ -1,0 +1,21 @@
+.ghe {
+    width: 40px;
+    height: 40px;
+    background: #ccc;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    transition: all 0.5s;
+
+    &.gheVip {
+        background: gold;
+    }
+
+    &.gheDangDat {
+        background: orange;
+    }
+
+    &.daDat {
+        cursor: not-allowed;
+        background: gray;
+    }
+}

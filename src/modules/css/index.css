@@ -1,0 +1,18 @@
+.ghe {
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  transition: all 0.5s;
+}
+.ghe.daDat {
+  cursor: not-allowed;
+  background: gray;
+}
+.ghe.gheVip {
+  background: gold;
+}
+.ghe.gheDangDat {
+  background: orange;
+}/*# sourceMappingURL=index.css.map */
